@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 and common attribute</title>
+    <style>
+        th,td{
+            border: 1px solid rgb(0, 0, 0);
+        }
+        table{
+            border-collapse:collapse;
+            border-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/405/713/small/floral-hand-drawn-frame-border-decorative-design-element-free-vector.jpg");
+        }
+        .border-img{
+            height: 500px;
+            width: 500px;
+            border: 10px solid transparent;
+            padding: 10px;
+            border-image: url("border.jpg");
+            border-image-slice:auto;
+            border-image-width: 1;
+            border-image-outset: 10px;
+            border-image-repeat:stretch;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- <nav>
+            <ul>
+                <li><a href="http://"></a>link-1</li>
+                <li><a href="http://"></a>link-2</li>
+                <li><a href="http://"></a>link-3</li>
+                <li><a href="http://"></a>link-4</li>
+                <li><a href="http://"></a>link-5</li>
+            </ul>
+        </nav> 
+        <section>
+            <audio src="Download SCAM 1992 Ringtone.mp3" controls preload="auto"></audio><br>
+            <video src="Coke Studio - Season 14 - Pasoori - Ali Sethi x Shae Gill.mp4" crossorigin="use-credentials" controls preload="none" ></video>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>head 1</th>
+                        <th>head 2</th>
+                        <th>head 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <div class="border-img">
+
+        </div> -->
+        <section>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>select an option</legend>
+                    <p>
+                        <label for="english">
+                            <input type="radio" name="subject" id="english">English
+                        </label>
+                    </p>
+                    <p>
+                        <label for="bangla">
+                            <input type="radio" name="subject" id="bangla">Bangla
+                        </label>
+                    </p>
+                    <p>
+                        <label for="math">
+                            <input type="radio" name="subject" id="math">Math
+                        </label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>select multiple subject</legend>
+                    <p><label for="science"><input type="checkbox" name="mul-sub" id="science">Science</label></p>
+                    <p><label for="gk"><input type="checkbox" name="mul-sub" id="gk">General knowkedge</label></p>
+                    <p><label for="history"><input type="checkbox" name="mul-sub" id="history">history</label></p>
+                </fieldset>
+                <label for="teacher">Select a teacher</label>
+                <select name="teacher" id="teacher">
+                    <option value="abdul-jalil">Abdul jalil</option>
+                    <option value="abdul-jalil">Abdul Karim</option>
+                    <option value="abdul-jalil">Abdul Rahim</option>
+                </select>
+                <input list="teachers" name="teachers">
+                <datalist id="teachers">
+                    <option value="jabbar">
+                    <option value="farukh">
+                    <option value="rustom">
+                    <option value="rukono">
+                    <option value="mojid">
+                </datalist>
+                <input type="button" value="button">
+                <input type="color" name="color" id="">
+                <input type="datetime" name="" id="" placeholder="time">
+                <input type="date" name="" id="">
+                <input type="datetime-local" name="" id="">
+                <input type="file" name="" id="">
+                <input type="image" src="border.jpg" alt="">
+                <input type="range" name="" id="" max="30" min="5">
+
+                <button type="submit">Submit</button>
+                <button type="reset">reset</button>
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>
