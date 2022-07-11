@@ -5,41 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 and common attribute</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        th,td{
-            border: 1px solid rgb(0, 0, 0);
-        }
-        table{
-            border-collapse:collapse;
-            border-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/405/713/small/floral-hand-drawn-frame-border-decorative-design-element-free-vector.jpg");
-        }
-        .border-img{
-            height: 500px;
-            width: 500px;
-            border: 10px solid transparent;
-            padding: 10px;
-            border-image: url("border.jpg");
-            border-image-slice:auto;
-            border-image-width: 1;
-            border-image-outset: 10px;
-            border-image-repeat:stretch;
-        }
+        
     </style>
 </head>
 <body>
     <main>
         <nav>
             <ul>
-                <li><a href="http://"></a>link-1</li>
-                <li><a href="http://"></a>link-2</li>
-                <li><a href="http://"></a>link-3</li>
-                <li><a href="http://"></a>link-4</li>
-                <li><a href="http://"></a>link-5</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li ><a href="services.html" >Services</a>
+                    <ul>
+                        <li><a href="">link -1</a></li>
+                        <li><a href="">link -2</a></li>
+                        <li><a href="">link -3</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact us</a></li>
             </ul>
         </nav> 
         <section>
             <audio src="Download SCAM 1992 Ringtone.mp3" controls preload="auto"></audio><br>
-            <video src="Coke Studio - Season 14 - Pasoori - Ali Sethi x Shae Gill.mp4" crossorigin="use-credentials" controls preload="none" ></video>
+            <video src="Coke Studio - Season 14 - Pasoori - Ali Sethi x Shae Gill.mp4" crossorigin="use-credentials" controls preload="" ></video>
         </section>
         <section>
             <table>
@@ -70,9 +59,6 @@
             </table>
         </section>
 
-        <div class="border-img">
-
-        </div>
         <section>
             <form action="" method="post">
                 <fieldset>
@@ -119,7 +105,6 @@
                 <input type="date" name="" id="">
                 <input type="datetime-local" name="" id="">
                 <input type="file" name="" id="">
-                <input type="image" src="border.jpg" alt="">
                 <input type="range" name="" id="" max="30" min="5">
                 <input type="number" name="" id="" >
                 <label for="country_code">Country code:</label>
@@ -133,6 +118,7 @@
                 <button type="reset">reset</button>
                 
             </form>
+            <summary></summary>
         </section>
     </main>
 </body>
